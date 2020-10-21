@@ -1,0 +1,24 @@
+# Ignore all bazel-* symlinks. There is no full list since this can change
+# based on the name of the directory bazel is cloned into.
+/bazel-*
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+### CUDA template
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+
+.idea/.gitignore
+.idea/basic-tensorflow-quantum.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+venv/
