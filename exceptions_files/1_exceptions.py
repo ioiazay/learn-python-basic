@@ -7,6 +7,7 @@
 # TypeError
 # ZeroDivisionError
 # AssertionError
+# KeyError
 
 print("7" + 4)
 # ValueError
